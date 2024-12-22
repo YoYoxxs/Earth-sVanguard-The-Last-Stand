@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281827644588317601}
-  - component: {fileID: -5192043504281498460}
+  - component: {fileID: 1479889566708176906}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -120,7 +120,7 @@ Transform:
   - {fileID: 1635012014346850535}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-5192043504281498460
+--- !u!114 &1479889566708176906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,11 +135,11 @@ MonoBehaviour:
   m_Target: {fileID: 0}
   m_PlayOnAwake: 1
   m_LoopMode: 1
-  m_Method: 0
+  m_Method: 1
   m_Duration: 1
-  m_MaxSpeed: 10
+  m_MaxSpeed: 1
   m_EasingMode: 0
   m_AlignmentMode: 1
-  m_ObjectForwardAxis: 2
-  m_ObjectUpAxis: 1
-  m_StartOffset: 0
+  m_ObjectForwardAxis: 1
+  m_ObjectUpAxis: 2
+  m_StartOffset: 1

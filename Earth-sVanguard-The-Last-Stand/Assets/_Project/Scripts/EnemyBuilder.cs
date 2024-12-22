@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Splines;
-using Utilities;
 
 namespace Shmup {
     public class EnemyBuilder {
@@ -32,7 +31,7 @@ namespace Shmup {
         public GameObject Build() {
             GameObject instance = GameObject.Instantiate(enemyPrefab);
             
-            SplineAnimate splineAnimate = instance.GetOrAdd<SplineAnimate>();
+            SplineAnimate splineAnimate = instance.GetComponent<SplineAnimate>();
             splineAnimate.Container = spline;
             splineAnimate.AnimationMethod = SplineAnimate.Method.Speed;
             splineAnimate.ObjectUpAxis = SplineAnimate.AlignAxis.ZAxis;

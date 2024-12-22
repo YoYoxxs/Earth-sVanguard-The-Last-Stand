@@ -15,7 +15,7 @@ namespace Shmup {
         void Start() {
             playerInput = GetComponent<PlayerInput>();
             moveAction = playerInput.actions["Move"];
-            fireAction = playerInput.actions["Fire"];
+            //fireAction = playerInput.actions["Fire"];
         }
     }
 }
