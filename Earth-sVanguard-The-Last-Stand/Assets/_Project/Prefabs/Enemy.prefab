@@ -140,6 +140,6 @@ MonoBehaviour:
   m_MaxSpeed: 1
   m_EasingMode: 0
   m_AlignmentMode: 1
-  m_ObjectForwardAxis: 1
-  m_ObjectUpAxis: 2
+  m_ObjectForwardAxis: 3
+  m_ObjectUpAxis: 4
   m_StartOffset: 1
